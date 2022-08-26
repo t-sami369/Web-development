@@ -1,0 +1,31 @@
+body{
+    background-color:#DCDCDC ;
+}
+.heading{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color:white;
+ }
+ .sample{
+    outline:none;
+    border:none;
+    font-size: 22px;
+ }
+ nav{
+    flex:1;
+    text-align: right;
+    height:25px;
+ }
+ nav ul{
+    display: inline-block;
+    list-style: none;
+ }
+ nav ul li{
+    display: inline-block;
+    margin-right:20px;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color:#5a1bf9;
+ }
