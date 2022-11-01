@@ -1,31 +1,274 @@
+*
+{
+   margin: 0;
+   padding: 0;
+} 
+
+/*cusomization of body section*/
 body{
-    background-color:#DCDCDC ;
+ background-color:#DCDCDC  !important ;
 }
-.heading{
-    display: flex;
-    padding: 20px;
-    align-items: center;
+
+/*customization of nav bar*/
+.navigation{
+    padding: 15px;
     background-color:white;
+    height: 25px;
+    display: flex;
+    align-items: center;
  }
- .sample{
-    outline:none;
-    border:none;
-    font-size: 22px;
+
+ /*adjustment of menu (Start)*/
+ .menu
+ {
+   float: right;
+   margin-right:50px ;
+   line-height: 25px;
+ }
+ .menu ul
+ {
+   display:flex;
+   margin-top: 0;
+ }
+ .menu ul li
+ {
+   list-style: none;
+   padding:0px 20px;
+ }
+ .menu ul li a svg
+ {
+   padding:5px;
+   border-radius: 10px;
+ }
+ /*(END)*/
+
+ /*editing menu icons*/
+  .icon
+ {
+   width: 20px;
  }
  nav{
-    flex:1;
-    text-align: right;
-    height:25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
  }
- nav ul{
-    display: inline-block;
-    list-style: none;
+
+ .body-text{
+   margin-left: 40px;
+   margin-top:30px;
+   margin-bottom: 70px;
  }
- nav ul li{
-    display: inline-block;
-    margin-right:20px;
+
+ .search
+ {
+   padding: 0;
+   margin-right: 0px;
+   line-height: 50px;
  }
- nav ul li a{
-    text-decoration: none;
-    color:#5a1bf9;
+ 
+.row-parent{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+ .search input
+ {
+   
+   width: 300px;
+   height:30px;
+   border-radius: 10px;
+   padding: 0px;
+   outline:none;
+   border:none;
  }
+.row1{
+  display:flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* height: 175px; */
+  gap:1px;
+  
+}
+.part1{
+  height: 150px;
+  width: 370px;
+  background-color:white;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.part1 p{
+  opacity: 0.8;
+  font-size: larger;
+}
+.part1 .sec1{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.part1 .sec1 a{
+  
+  width:80px;
+  height:80px;
+  border-radius:100%;
+  text-align: center;
+  background:#90EE90;
+}
+svg{
+  padding-top: 10px;
+  height: 50px;
+  width: 50px;
+}
+.sec1 svg{
+  fill:#32CD32;
+}
+.part1 .sec2{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.sec22{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.part1 .sec2 a{
+  
+  width:80px;
+  height:80px;
+  border-radius:100%;
+  text-align: center;
+  background:#ADD8E6;
+}
+.sec2 svg{
+  fill:#6495ED;
+}
+.part1 .sec3{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.sec33{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.part1 .sec3 a{
+  
+  width:80px;
+  height:80px;
+  border-radius:100%;
+  text-align: center;
+  background:#FFE4B5;
+}
+.sec3 svg{
+  fill:orange;
+}
+.part1 .sec4{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.sec44{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.part1 .sec4 a{
+  
+  width:80px;
+  height:80px;
+  border-radius:100%;
+  text-align: center;
+  background:#FFC0CB;
+}
+.sec4 svg{
+  fill:red;
+}
+.row2{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  /* height: 475px; */
+  gap:1px;
+}
+
+.part2{
+  height: 450px;
+  width : 760px;
+  background-color: white;
+  margin-left: 20px;
+}
+
+.part21{
+  height: 450px;
+  width: 370px;
+  background-color:white;
+  margin-left: 20px;
+}
+
+.row3{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  /* height: 450px; */
+  gap:1px;
+}
+
+.part3{
+  height: 425px;
+  width: 500px;
+  background-color:white;
+  margin-left: 20px;
+}
+
+.row4{
+  display:flex;
+  flex-wrap:wrap;
+  width: 100%;
+  /* height: 250px; */
+  gap:1px;
+  margin-bottom: 80px;
+}
+
+.part4{
+  height: 150px;
+  width: 370px;
+  background-color:white;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#facebook{
+  background-color: #4267B2;
+}
+.row4 p{
+  color:white;
+}
+h2{
+  color:white;
+}
+.part4 svg{
+  fill:white;
+  height:25px;
+}
+#twitter{
+  background-color: #00acee;
+}
+
+#googleplus{
+  background-color: #db4a39;
+}
+
+#linkedin{
+  background-color: #0072b1;
+}
+
